@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f8fa;
+}
+
+
+/* Navbar */
+nav {
+    background-color: #7291f5;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.logo, .logo a {
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.nav-link a {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    
+}
+
+
+/* Other pages */
+.heading {
+    text-align: center;
+    font-size: 32px;
+    color: #285aff;
+}
+
+/*  Login */
+.main-section {
+    display: flex;
+    margin: 4% 10% 0% 10%;
+    box-shadow: 1px 2px 25px rgba(83, 83, 83, 0.479);
+    border-radius: 15px;
+    /* width: 80%; */
+}
+
+.img-div, .img-div-2 {
+    background-image: url("/book.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    min-height: 70vh;
+}
+
+.img-div {
+    border-radius: 15px 0px 0px 15px;
+}
+
+.img-div-2 {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.content {
+    margin: auto;
+}
+
+.login-form {
+    margin: 50px 40px 40px 40px;         /* T R B L*/
+}
+
+.login-form input {
+    width: 100%;
+    border: 1px solid rgba(189, 189, 189, 0.789);
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 25px;
+    box-shadow: 1px 2px 4px rgba(83, 83, 83, 0.479);
+    font-size: 16px;
+}
+
+.login-form button {
+    height: 45px;
+    width: 400px;
+    border-radius: 25px;
+    border: 1px solid rgba(189, 189, 189, 0.789);
+    background-color: #4b75ff;
+    box-shadow: 1px 2px 4px rgba(83, 83, 83, 0.479);
+    color: white;
+    font-size: 20px;
+}
+
+.input-form button:hover {
+    background-color: #3aff28;
+}
+
+
